@@ -1,0 +1,27 @@
+%load any additional packages
+
+\usepackage[utf8]{inputenc} % so we can input characters with accents (e.g. ő)
+
+\usepackage{mathtools}
+
+\usepackage{gtbeamer}
+
+\usepackage{graphicx} % ease graphics management
+\graphicspath{{images/}} % define folder with images
+\usefonttheme{serif} % change font to allow \textbf{}
+\usepackage{palatino} % Nicer fonts
+\usepackage[ruled]{algorithm2e}
+\usepackage{amsmath,amsthm,amssymb} % for math equations
+\usepackage{xcolor}
+\usepackage{natbib} % richer citation
+\usepackage{breakcites} % avoid overfull hbox for long cites
+
+% \theoremstyle{claim}
+\newtheorem{claim}[theorem]{Claim}%
+\newtheorem{proposition}[theorem]{Proposition}
+\setbeamertemplate{footline}[frame number]
+\newcommand\norm[1]{\lVert#1\rVert}
+% \newcommand\normx[1]{\lVert#1\rVert_{#2}}
+\setbeamertemplate{headline}{}
+
+% \usetheme{Szeged}
